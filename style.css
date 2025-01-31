@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #87CEFA; /* Plain background color */
+  background-color: #87CEFA;
   font-family: Arial, sans-serif;
 }
 
@@ -32,8 +32,8 @@ body {
   margin-left: -175px;
   width: 350px;
   height: 470px;
-  perspective: 1000px; /* Perspective for the 3D flip */
-  cursor: pointer; /* Show pointer cursor when hovering over the card */
+  perspective: 1000px;
+  cursor: pointer;
 }
 
 .para-text {
@@ -41,10 +41,10 @@ body {
   top: 0px;
   width: 100%;
   font-family: 'Righteous', sans-serif;
-  font-size: 35px; /* Increased size for the "Para: Vero" text */
+  font-size: 35px;
   font-weight: bold;
   color: #000;
-  text-align: center; /* Center the text */
+  text-align: center;
   font-style: italic;
 }
 
@@ -57,11 +57,11 @@ body {
   height: 100%;
   backface-visibility: hidden;
   display: flex;
-  flex-direction: column; /* Stack content vertically */
+  flex-direction: column;
 }
 
 .cover {
-  background-color: #FFB6C1; /* Orange card color */
+  background-color: #FFB6C1;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -70,10 +70,10 @@ body {
 }
 
 .inside {
-  background-color: #FFB6C1; /* Darker background for the inside */
+  background-color: #FFB6C1; 
   border-radius: 15px;
   color: #fff;
-  transform: rotateY(180deg); /* Initially hidden */
+  transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
 
@@ -86,39 +86,38 @@ body {
   transform: rotateY(0deg);
 }
 
-/* Button styling */
 .click-button {
-  background-color: #fff; /* White background */
-  border: 1px solid #000; /* Thin black outline */
+  background-color: #fff;
+  border: 1px solid #000;
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
   color: #000;
   cursor: pointer;
-  margin-top: 30px; /* Space between "Para: Vero" and button */
+  margin-top: 30px; 
   transition: all 0.3s ease-in-out;
 }
 
 .card-image {
-  width: 220px; /* Adjust the width */
-  margin-top: 20px; /* Space between button and image */
+  width: 220px;
+  margin-top: 20px;
   height: auto;
   border-radius: 10px;
 }
 
-/* Make the content div inside page stack children vertically */
+
 .page .content {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align the children horizontally */
-  margin-top: 50px; /* Add space to the top of the content */
+  align-items: center;
+  margin-top: 50px;
 }
 
 /* Button hover effect */
 .click-button:hover {
-  background-color: #000; /* Black background on hover */
-  color: #fff; /* White text on hover */
+  background-color: #000;
+  color: #fff;
 }
 
 .t-text {
